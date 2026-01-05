@@ -165,10 +165,6 @@ Based on work by [gosanman](https://github.com/gosanman/smartmetergateway)
 
 Original implementation: https://github.com/gosanman/smartmetergateway
 
-## License
-
-MIT License - See [LICENSE](LICENSE) file for details
-
 ## Troubleshooting
 
 ### Connection Issues
@@ -186,3 +182,33 @@ MIT License - See [LICENSE](LICENSE) file for details
 
 - Confirm the meter ID is correct
 - Check gateway API is responding with `/json/metering/origin/{meterID}/extended`
+
+## Disclaimer
+
+This project is an independent, open-source library and is **not affiliated with, endorsed by, or sponsored by EMH metering GmbH** or any of its partners.  
+“EMH” and “CASA” are trademarks of their respective owners and are used for descriptive purposes only.
+
+This software is provided **“as is”**, without warranty of any kind, express or implied.  
+Use of this library is **at your own risk**.
+
+---
+
+## Regulatory Notice
+
+This library accesses data via the HAN interface of EMH CASA smart meter gateways.  
+It **does not replace** certified, BSI-compliant software and **does not claim compliance** with regulatory requirements such as the German *Messstellenbetriebsgesetz (MsbG)* or BSI protection profiles.
+
+The responsibility for compliant and lawful operation lies entirely with the user of this software.
+
+---
+
+## Data Protection
+
+This library does not collect, store, or transmit data on its own.  
+Any processing of metering data, which may be considered personal data under applicable laws, is the responsibility of the integrating application and its operator.
+
+---
+
+## License
+
+This project is licensed under the **MIT License**. See the `LICENSE` file for details.
