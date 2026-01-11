@@ -142,7 +142,7 @@ client, err := emhcasa.NewClient(uri, user, pass, "ABC123...", host)
 
 ## evcc Integration
 
-This library is used by [evcc](https://evcc.io) for CASA gateway meter support:
+This library aims to get used by [evcc](https://evcc.io) for CASA gateway meter support:
 
 ```go
 import "github.com/iseeberg79/emh-casa-go"
